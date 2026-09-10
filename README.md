@@ -14,6 +14,20 @@ A lightweight Windows toolbar for Codex and VS Code that displays usage limits, 
 - 网络异常时显示明确提示，并自动降低刷新频率。
 - Windows 原生 WPF 程序，不需要额外安装 Node.js 或 Python。
 
+## 核心功能演示
+
+### 吸附跟随 Codex 移动
+
+<p align="center">
+  <img src="assets/codex-attachment.gif" width="720" alt="CodexMiniBar follows the Codex window while it moves">
+</p>
+
+### 外观同步与折叠交互
+
+| 深色 / 浅色外观 | 折叠 / 展开 |
+|---|---|
+| <img src="assets/theme-switch.gif" width="360" alt="CodexMiniBar switches between dark and light appearance"> | <img src="assets/collapse-expand.gif" width="360" alt="CodexMiniBar collapses and expands"> |
+
 ## 产品预览
 
 ### 折叠态
