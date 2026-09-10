@@ -4,10 +4,6 @@
 
 A lightweight Windows toolbar for Codex and VS Code that displays usage limits, reset timers, subscription status, and reset cards.
 
-<p align="center">
-  <img src="assets/plus-dark-expanded.png" width="480" alt="CodexMiniBar expanded dark preview">
-</p>
-
 ## 功能亮点
 
 - 吸附在 Codex 或 VS Code 主窗口顶部，跟随窗口移动、最小化和 DPI 变化。
@@ -20,9 +16,19 @@ A lightweight Windows toolbar for Codex and VS Code that displays usage limits, 
 
 ## 产品预览
 
-| 折叠状态 | Pro 状态 |
+### 折叠态
+
+| Plus 状态 | Pro 状态 |
 |---|---|
 | <img src="assets/plus-light-collapsed.png" width="360" alt="Plus light collapsed preview"> | <img src="assets/pro-dark-collapsed.png" width="360" alt="Pro dark collapsed preview"> |
+
+### 展开态
+
+<p align="center">
+  <img src="assets/plus-dark-expanded.png" width="480" alt="CodexMiniBar expanded dark preview">
+</p>
+
+### 激活界面
 
 <p align="center">
   <img src="assets/activation.png" width="520" alt="CodexMiniBar activation window">
