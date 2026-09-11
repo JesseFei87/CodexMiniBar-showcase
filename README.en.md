@@ -1,7 +1,7 @@
 # CodexMiniBar
 
 <p align="right">
-  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
+  <strong>English</strong> | <a href="README.md">简体中文</a>
 </p>
 
 **Keep your Codex quota in view, without interrupting your work.**

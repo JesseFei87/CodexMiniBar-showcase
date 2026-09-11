@@ -1,7 +1,7 @@
 # CodexMiniBar
 
 <p align="right">
-  <a href="README.md">English</a> | <strong>简体中文</strong>
+  <a href="README.en.md">English</a> | <strong>简体中文</strong>
 </p>
 
 **把 Codex 额度放在眼前，不打断当前工作。**
