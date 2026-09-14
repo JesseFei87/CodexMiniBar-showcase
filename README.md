@@ -46,34 +46,23 @@
   <img src="assets/plus-dark-expanded.png" width="480" alt="CodexMiniBar expanded dark preview">
 </p>
 
-### 激活界面
-
-<p align="center">
-  <img src="assets/activation.png" width="520" alt="CodexMiniBar activation window">
-</p>
-
 > 截图使用固定示例数据，不包含真实账户信息。
 
-## 购买与激活
+## 下载
 
-CodexMiniBar 采用一机一码授权：
+- [Windows x64 免安装版 v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-Windows-x64-v1.1.0.zip) — 下载并解压后，直接运行 `CodexMiniBar.exe`。
+- [macOS Apple Silicon v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-macOS-Apple-Silicon.dmg) — 打开 DMG，将 CodexMiniBar 拖入 Applications。
 
-1. 购买后获得一个唯一激活码。
-2. 首次启动联网激活，激活码绑定首台电脑。
-3. 已激活设备会在启动时验证授权；临时断网可继续使用最多 72 小时。
-4. 换机或授权异常时，请通过原购买渠道联系卖家。
-
-购买请通过 CodexMiniBar 的小红书商品页面联系卖家。本展示仓库不提供安装包、源代码或卖家工具。
+安装包校验文件：[Windows SHA-256](downloads/CodexMiniBar-Windows-x64-v1.1.0.zip.sha256) · [macOS SHA-256](downloads/CodexMiniBar-macOS-Apple-Silicon.dmg.sha256)
 
 ## 隐私说明
 
-CodexMiniBar 通过本机 Codex 自带接口只读获取额度信息，不保存 Codex 登录令牌、聊天内容或账户邮箱。授权服务仅接收产品标识、经过哈希处理的设备标识和随机授权 ID。
+CodexMiniBar 通过本机 Codex 自带接口只读获取额度信息，不保存 Codex 登录令牌、聊天内容或账户邮箱。
 
 ## 系统要求
 
-- Windows 11 x64
-- 已安装并登录 Codex 桌面版；或使用受支持的 VS Code 桌面版作为吸附宿主
-- 首次激活需要联网
+- Windows 11 x64；已安装并登录 Codex 桌面版，或使用受支持的 VS Code 桌面版作为吸附宿主
+- Apple Silicon Mac（M1 或更新），macOS 13 或更高版本
 
 ## Copyright
 

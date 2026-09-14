@@ -46,34 +46,23 @@ A lightweight Windows toolbar for Codex and VS Code that displays usage limits, 
   <img src="assets/plus-dark-expanded.png" width="480" alt="CodexMiniBar expanded dark preview">
 </p>
 
-### Activation screen
-
-<p align="center">
-  <img src="assets/activation.png" width="520" alt="CodexMiniBar activation window">
-</p>
-
 > Screenshots use fixed sample data and contain no real account information.
 
-## Purchase and activation
+## Downloads
 
-CodexMiniBar uses a one-device, one-code license:
+- [Windows x64 portable v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-Windows-x64-v1.1.0.zip) — Download, extract, and run `CodexMiniBar.exe`.
+- [macOS Apple Silicon v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-macOS-Apple-Silicon.dmg) — Open the DMG and drag CodexMiniBar to Applications.
 
-1. You receive a unique activation code after purchase.
-2. Activate online on first launch; the code is bound to the first computer.
-3. Activated devices verify their license at launch; they can continue to work offline for up to 72 hours.
-4. For a new computer or licensing issue, contact the seller through the original purchase channel.
-
-To purchase, contact the seller through the CodexMiniBar Xiaohongshu product page. This showcase repository does not provide installers, source code, or seller tools.
+Package checksums: [Windows SHA-256](downloads/CodexMiniBar-Windows-x64-v1.1.0.zip.sha256) · [macOS SHA-256](downloads/CodexMiniBar-macOS-Apple-Silicon.dmg.sha256)
 
 ## Privacy
 
-CodexMiniBar reads quota information through a local, built-in Codex interface. It does not store Codex sign-in tokens, conversation content, or account email addresses. The licensing service receives only a product identifier, a hashed device identifier, and a random license ID.
+CodexMiniBar reads quota information through a local, built-in Codex interface. It does not store Codex sign-in tokens, conversation content, or account email addresses.
 
 ## System requirements
 
-- Windows 11 x64
-- Codex desktop signed in, or a supported VS Code desktop installation as the attachment host
-- Internet access for first-time activation
+- Windows 11 x64 with Codex desktop signed in, or a supported VS Code desktop installation as the attachment host
+- Apple Silicon Mac (M1 or later) running macOS 13 or later
 
 ## Copyright
 
