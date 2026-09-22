@@ -12,7 +12,9 @@
 
 - 吸附在 Codex 或 VS Code 主窗口顶部，跟随窗口移动、最小化和 DPI 变化。
 - 折叠状态快速查看账户等级、5 小时额度、每周额度、重置倒计时和重置卡。
-- 展开后显示额度进度、重置时间、订阅到期时间和最近更新时间。
+- 展开主页一屏显示额度、订阅、重置卡与当月 Token 热力图；悬停查看每日消耗。
+- 同一面板查看全局重置公告与 AI 热点榜，来源列表默认折叠；可选订阅邮件提醒。
+- 托盘支持开机自启与检查更新，订阅到期时间可精确到分钟。
 - 支持简体中文与 English，并跟随 Codex 的深色、浅色和自定义主题。
 - 可分别保存 Codex 与 VS Code 的吸附位置和刷新频率。
 - 网络异常时显示明确提示，并自动降低刷新频率。
@@ -50,14 +52,20 @@
 
 ## 下载
 
-- [Windows x64 免安装版 v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-Windows-x64-v1.1.0.zip) — 下载并解压后，直接运行 `CodexMiniBar.exe`。
+- [Windows x64 免安装版 v1.3.1（完整包）](https://github.com/JesseFei87/CodexMiniBar-showcase/releases/download/v1.3.1/CodexMiniBar-Windows-x64-v1.3.1.zip) — 完整解压后运行 `CodexMiniBar.exe`，保留同目录 `.exe.config` 文件。
 - [macOS Apple Silicon v1.1.0](https://github.com/JesseFei87/CodexMiniBar-showcase/raw/refs/heads/main/downloads/CodexMiniBar-macOS-Apple-Silicon.dmg) — 打开 DMG，将 CodexMiniBar 拖入 Applications。
 
-安装包校验文件：[Windows SHA-256](downloads/CodexMiniBar-Windows-x64-v1.1.0.zip.sha256) · [macOS SHA-256](downloads/CodexMiniBar-macOS-Apple-Silicon.dmg.sha256)
+安装包校验文件：[Windows SHA-256](https://github.com/JesseFei87/CodexMiniBar-showcase/releases/download/v1.3.1/SHA256SUMS.txt) · [macOS SHA-256](downloads/CodexMiniBar-macOS-Apple-Silicon.dmg.sha256)
+
+[最新发布与更新说明](https://github.com/JesseFei87/CodexMiniBar-showcase/releases/latest)
+
+已有“检查更新”的客户端可在托盘中检查新版，自主选择更新，安装成功后自动重启并保留设置。v1.1 / v1.2 用户请退出旧版，手动下载上述完整包并解压全部文件；固定名 `CodexMiniBar-Windows-x64-portable.zip` 仅供内置更新器使用。
+
+本次新功能仅适用于 Windows v1.3.1；macOS 安装包保持原版，且不支持窗口吸附。上方演示图可能来自旧版，最新变化以发布说明为准。
 
 ## 隐私说明
 
-CodexMiniBar 通过本机 Codex 自带接口只读获取额度信息，不保存 Codex 登录令牌、聊天内容或账户邮箱。
+CodexMiniBar 只读获取额度与 Token 信息，不读取会话正文。Token 备用读取仅在本机内存使用已有登录凭据访问官方 Profile 接口，不保存凭据或发送给第三方。AI 热点与重置公告来自第三方数据源；如主动订阅邮件提醒，填写的收件邮箱会提交给订阅服务，可随时退订。
 
 ## 系统要求
 
